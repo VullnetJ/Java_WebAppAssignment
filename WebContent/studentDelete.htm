@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Delete student</title>
+<link rel="stylesheet" href="studentDelete.css">
+</head>
+<body>
+	<h2 id="delete"> Delete student:</h2>
+	<form action="StudentDeleteServlet.servlet" method="POST">
+		<h5>Deleting the student</h5>
+		<input type="number" placeHolder="Id" name="id" /> 
+		<input type="submit" value="Click" name="remove"/>
+	</form>
+	<button onclick=deleteStudent() > Delete student</button>
+	<script src="studentAdd.js"></script>
+</body>
+</html>

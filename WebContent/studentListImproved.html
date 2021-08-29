@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Get Student List</title>
+<link rel="stylesheet" href="studentListImproved.css">
+
+</head>
+<body>
+
+<h1>Getting data from the server with the help of ajaxhelper function</h1>
+
+<button onclick="getDataFromServer()">Get data from Server</button>
+    <div id="resultStudents"></div>
+    
+   <button onclick="main()">Fetch data from studentList</button>
+    <div id="resultStudents"></div>
+    
+ 
+
+<script src ="ajaxhelper.js"></script>
+<script src ="studentListImproved.js"></script>
+
+
+<button class = "btn" type="button" onclick="studentFunction()">get studentList</button>
+	<form method="GET" action="studentList"></form>
+
+	<table id ="table">
+		<tr>
+			<td>Id</td>
+			<td><input type="text" name="id" id ="id'></td>
+			<td>
+		<tr>
+		<tr>
+			<td>First name</td>
+			<td> <input type= "text"  name="firstname" id="firstname"></td>
+			<td>
+		<tr>
+		<tr>
+			<td>Last name</td>
+			<td><input type="text" name="lastname" id="lastname"></td>
+			<td>
+		<tr>
+		<tr>
+			<td>Street</td>
+			<td><input type="text" name="street" id ="street"></td>
+			<td>
+		<tr>
+		<tr>
+			<td>Post code</td>
+			<td><input type="text" name="postcode" id ="postcode"></td>
+			<td>
+		<tr>
+		<tr>
+			<td>Post office</td>
+			<td><input type="text" name="postoffice" id="postoffice"></td>
+			<td>
+		<tr>
+	</table>
+
+</body>
+</html>
