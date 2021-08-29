@@ -7,6 +7,8 @@ node_modules
 undefined
 target
 dist
+databases
+lib
 bin/
 .settings
 .classpath
